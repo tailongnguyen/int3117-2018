@@ -5,15 +5,15 @@ Jedi sử dụng một API vô cùng đơn giản để giao tiếp với IDE, c
 
 Dưới đây là một vài bức ảnh của jedi-vim:
 
-![] https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_complete.png
+![](https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_complete.png)
 
 Tự động điền cho hầu hết các lệnh (Ctrl+Space):
 
-![] https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_function.png
+![](https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_function.png)
 
 Hiển thị các hàm, các lớp:
 
-![] https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_pydoc.png
+![](https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_pydoc.png)
 
 
 Cài đặt
