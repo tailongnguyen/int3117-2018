@@ -5,15 +5,15 @@ Jedi sử dụng một API vô cùng đơn giản để giao tiếp với IDE, c
 
 Dưới đây là một vài bức ảnh của jedi-vim:
 
-![] https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_complete.png
+![](https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_complete.png)
 
 Tự động điền cho hầu hết các lệnh (Ctrl+Space):
 
-![] https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_function.png
+![](https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_function.png)
 
 Hiển thị các hàm, các lớp:
 
-![] https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_pydoc.png
+![](https://github.com/davidhalter/jedi/raw/master/docs/_screenshots/screenshot_pydoc.png)
 
 
 Cài đặt
@@ -21,7 +21,7 @@ Cài đặt
 
     pip install jedi
 
-Chú ý: Câu lệnh trên chỉ cài đặt thư viện Jedi, không phải plugin cho trình soạn thảo
+Chú ý: Câu lệnh trên chỉ cài đặt thư viện Jedi, không phải plugin cho trình soạn thảo. Bạn cần cài plugin tương ứng cho từng loại trình soạn thảo khác nhau.
 
 
 Phân tích tĩnh / Linter
