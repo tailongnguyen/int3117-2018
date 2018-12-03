@@ -103,27 +103,39 @@ public class BigInteger {
         while(true) {
             
             int temp = 0;
-            if (i >= 0 && j >= 0) temp = Character.getNumericValue(str1.charAt(i--)) + Character.getNumericValue(str2.charAt(j--));
-            else
-                if (i >= 0 && j < 0) temp = Character.getNumericValue(str1.charAt(i--));
-                else
-                    if (i < 0 && j >= 0) temp = Character.getNumericValue(str2.charAt(j--));
-                    else
+            if (i >= 0 && j >= 0){ 
+                temp = Character.getNumericValue(str1.charAt(i--)) + Character.getNumericValue(str2.charAt(j--));
+            }
+            else {
+                if (i >= 0 && j < 0) {
+                    temp = Character.getNumericValue(str1.charAt(i--));
+                }
+                else {
+                    if (i < 0 && j >= 0) {
+                        temp = Character.getNumericValue(str2.charAt(j--));
+                    }
+                    else {
                         if (i < 0 && j < 0) {
                             res[0] = Character.forDigit(t, 10);
                             break;
                         }
-            
+                    }
+                }
+            }
             res[size--] = Character.forDigit((temp + t) % 10, 10);
-            if ((temp + t) >= 10) 
+            if ((temp + t) >= 10) {
                 t = 1;
-            else 
+            }
+            else {
                 t = 0;
+            }
         }
-        if(res[0] == '0'){
+        if (res[0] == '0'){
             return new String(res).substring(1);
         }
-        else return new String(res);
+        else {
+            return new String(res);
+        }
     }
 
     public String subString(String str1, String str2){
